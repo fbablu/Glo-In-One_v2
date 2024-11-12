@@ -10,7 +10,7 @@ Segmenting glomerular tissue and lesions typically requires meticulous morpholog
 Please refer to [INSTALL.md](docs/INSTALL.md) for installation instructions of the detection phase.
 
 ## Model
-Pretrained model can be found [here](weights).
+Pretrained model can be found [here](https://drive.google.com/file/d/108uVHgrNBhn-jICiF7WG9SjpmAHJdU1W/view?usp=sharing).
 
 [//]: # (## Data)
 
@@ -21,7 +21,7 @@ Pretrained model can be found [here](weights).
 Run
 
 ```
-python MOTSDataset_2D_Patch_normal_save_csv_Glo_v2.py circledet --load_model ../model/detection_model.pth --filter_boarder --demo ../demo.svs --demo_dir ../output
+python MGlo_v2_segmentation.py --dataset_dir Test_Patch --reload_path ../model/detection_model.pth --filter_boarder --demo ../demo.svs --demo_dir ../output
 ```
 
 
