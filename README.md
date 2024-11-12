@@ -18,10 +18,10 @@ Pretrained model can be found [here](https://drive.google.com/file/d/108uVHgrNBh
 
 ## Glo-In-One_v2 - Demo for Segmentation Section
 
-Run
+Run demo for testing patches
 
 ```
-python Glo_v2_segmentation.py --dataset_dir Test_Patch --reload_path ../model/detection_model.pth --filter_boarder --demo ../demo.svs --demo_dir ../output
+python Glo_v2_segmentation.py --dataset_dir [Your Patch Folder] --reload_path .[Your PTH Folder] --output_folder [Your Output Folder]
 ```
 
 
