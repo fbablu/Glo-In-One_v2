@@ -20,7 +20,7 @@ We used PyTorch 1.13.1 on [Ubuntu 22.04 LTS](https://releases.ubuntu.com/22.04/)
 
 4. Install [apex](https://github.com/NVIDIA/apex):
     ~~~
-    cd Omni_Seg/Omni_seg_pipeline_gpu/apex
+    cd Glo-in-One_v2/apex
     python3 setup.py install
     cd ..
     ~~~
