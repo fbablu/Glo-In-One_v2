@@ -3,8 +3,11 @@ The official implementation of Glo-In-One-v2
 
 
 <img src='docs/Glo_v2_class.png' align="center" height="500px">
+
 <img src='docs/Toolkit.png' align="center" height="300px">
+
 ## Abstract
+
 Segmenting glomerular tissue and lesions typically requires meticulous morphological analysis by expert nephropathologists, a time-intensive process with notable interobserver variability. Building on our previously developed Glo-In-One toolkit, this study introduces Glo-In-One version 2, featuring enhanced segmentation capabilities with 14 distinct labels for tissue regions, cells, and lesions, applied to a dataset of 23,529 annotated glomeruli from human and mouse histopathology images—the largest dataset of its kind to date. We implemented a deep learning model with a single dynamic head architecture to segment 14 classes within partially labeled images, covering five primary renal structures (Bowman’s capsule, glomerular tuft, mesangium, mesangial cells, and podocytes) and nine glomerular lesion types, including global sclerosis, hyaline cap, and segmental sclerosis.
 ## Installation
 
