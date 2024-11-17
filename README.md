@@ -2,7 +2,7 @@
 The official implementation of Glo-In-One-v2
 
 
-<img src='docs/Glo_v2_class.png' align="center" height="500px">
+<img src='docs/Glo_v2_class.png' align="center" height="450px">
 
 <img src='docs/Toolkit.png' align="center" height="300px">
 
