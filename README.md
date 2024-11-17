@@ -67,7 +67,7 @@ python Glo_v2_segmentation.py --dataset_dir [Your Patch Folder] --reload_path .[
 #### Get our docker image
 
 ```
-sudo docker pull 
+sudo docker pull hrlblab333/public:glo_in_one_v2
 ```
 #### Run Glo-In-One
 You can run the following command or change the `input_dir`, then you will have the final segmentation results in `output_dir`
@@ -76,6 +76,9 @@ You can run the following command or change the `input_dir`, then you will have 
 export input_dir=/home/input_dir   
 # make that directory
 sudo mkdir $input_dir
-#run the docker
-sudo nvidia-docker run -it --rm -v $input_dir:/INPUTS/ -v $output_dir:/OUTPUTS 
+# put WSIs to the $input_dir directly without subfolders
+# set output directory
+export output_dir=$input_dir/output
+#run the docker if your input_dir contains WSIs
+sudo nvidia-docker run -it --rm --shm-size=8g -v $input_dir:/INPUTS/ -v $output_dir:/OUTPUTS hrlblab333/public:glo_in_one_v2 /Glo-In-One_v2/glo-in-one_v2.sh
 ```
