@@ -62,6 +62,7 @@ python Glo_v2_segmentation.py --dataset_dir [Your Patch Folder] --reload_path .[
 
 [//]: # (```)
 
+## Glo-In-One_v2 (Detection + Segmentation)
 ### Quick start
 
 #### Get our docker image
