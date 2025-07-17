@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+output/
+weights/
+snapshots_2D/
+.DS_Store
+*.egg-info/
+.venv/
